@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Gerador de senhas</title>
+</head>
+<body>
+    <div id="register-container">
+        <div id="banner">
+            <h1>Bem-vindo!</h1>
+        </div>
+        <div id="register-form">
+                <h2>Crie sua conta:</h2>
+                <p>Registre-se, é de graça!</p>
+                <div class="form-control">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome">
+                </div>
+                <div class="form-control">
+                    <label for="email">E-mail:</label>
+                    <input type="text" email="email" id="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="form-control">
+                    <label for="password">Senha:</label>
+                    <input type="password" password="password" id="password" placeholder="Digite uma senha">
+                </div>
+                
+                <p>Quer ajuda para criar uma senha segura? <span id="generate-password">Clique aqui.</span></p>
+                <div id="generated-password">
+                    <p>Aqui está sua senha:</p>
+                    <h4>asdasdasd </h4>
+                    <button id="copy-pass">
+                        Copiar
+                    </button>
+                </div>
+                <div class="form-control">
+                    <label for="confirmpassword">Confirmação de Senha:</label>
+                    <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirme a senha">
+                </div>
+                   <input id="submit" type="submit" value="Cadastrar">
+        </div>
+        
+    </div>
+</body>
+</html>

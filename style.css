@@ -1,0 +1,135 @@
+/*https://i.pinimg.com/originals/c6/a5/15/c6a51558e845b8f51a977292cd7395fb.gif*/
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+html{
+    background: linear-gradient(180deg, #d0f95b 0%, #ffffc1 100%);
+}
+input:focus{
+    outline: none;
+    
+}
+#register-container{
+    max-width: 900px;
+    min-height: 80vh;
+    margin: 2rem auto;
+    display: flex;
+    border: 2px solid #294380;
+    border-radius: 15px;
+}
+
+#banner{
+    border-right: 2px solid #294380;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    background: url(https://i.pinimg.com/originals/c6/a5/15/c6a51558e845b8f51a977292cd7395fb.gif);
+    background-size: cover;
+    background-position:20% center ;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banner h1{
+    color: #294380;
+    font-weight:900;
+    font-size: 2.8rem;
+    margin-bottom: 10rem;
+}
+#register-form{
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    width: 60%;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    background-color: #fdfdfd;
+}
+#register-form h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+    color: #294380;
+    font-weight: 900;
+
+}
+#register-form p{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+.form-control{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.form-control label{
+    font-weight: bold;
+    margin-bottom: .6rem;
+    color: #294380;
+}
+.form-control input{
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: 0.6rem 0;
+}
+#generate-password{
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+}
+#generate-password:hover{
+    color: #294380;
+}
+#generated-password{
+    border: 1px solid #294380;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: .4rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+    display: none;
+}
+#generated-password p{
+    margin-bottom: 0.5rem;
+    color: #07f42d;
+}
+#submit{
+    background-color: #294380;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.8;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: 1rem 2.5rem;
+    max-width: 200px;
+    align-self: center;
+    font-weight: bold;
+    transition: .4s;
+    letter-spacing: 2px;
+}
+#submit:hover{
+    opacity: 1;
+}
+#copy-pass{
+    font-weight: bold;
+    margin-top: 1rem;
+    color: white;
+    background-color: #294380;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    opacity: 0.8;
+}
+#copy-pass:hover{
+    opacity: 1;
+}
