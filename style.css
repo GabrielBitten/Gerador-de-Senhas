@@ -7,7 +7,8 @@
 }
 
 html{
-    background: linear-gradient(180deg, #d0f95b 0%, #ffffc1 100%);
+    background: radial-gradient(circle at 50% 50%, rgb(165, 180, 252), rgb(79, 70, 229));
+    
 }
 input:focus{
     outline: none;
